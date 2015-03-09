@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4E542F261AAD7D7C0060568A /* videoplayer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E542F251AAD7D7C0060568A /* videoplayer.jpg */; };
+		4E9F8CE01AAD8290000E15A6 /* OnecloudVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E542F421AAD81340060568A /* OnecloudVideo.framework */; };
+		4E9F8CE11AAD8290000E15A6 /* OnecloudVideo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E542F421AAD81340060568A /* OnecloudVideo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4ED420701AAD7B880033B839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4206F1AAD7B880033B839 /* AppDelegate.swift */; };
 		4ED420721AAD7B880033B839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED420711AAD7B880033B839 /* ViewController.swift */; };
 		4ED420751AAD7B880033B839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED420731AAD7B880033B839 /* Main.storyboard */; };
@@ -17,6 +19,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4E542F411AAD81340060568A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E542F3C1AAD81340060568A /* OnecloudVideo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4ED420331AAD4DA10033B839;
+			remoteInfo = OnecloudVideo;
+		};
+		4E542F431AAD81340060568A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E542F3C1AAD81340060568A /* OnecloudVideo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4ED4203E1AAD4DA10033B839;
+			remoteInfo = OnecloudVideoTests;
+		};
+		4E9F8CDE1AAD8285000E15A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E542F3C1AAD81340060568A /* OnecloudVideo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED420321AAD4DA10033B839;
+			remoteInfo = OnecloudVideo;
+		};
+		4E9F8CE21AAD8290000E15A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E542F3C1AAD81340060568A /* OnecloudVideo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED420321AAD4DA10033B839;
+			remoteInfo = OnecloudVideo;
+		};
 		4ED420801AAD7B890033B839 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4ED420621AAD7B870033B839 /* Project object */;
@@ -26,8 +56,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4E9F8CE41AAD8290000E15A6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E9F8CE11AAD8290000E15A6 /* OnecloudVideo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4E542F251AAD7D7C0060568A /* videoplayer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = videoplayer.jpg; sourceTree = "<group>"; };
+		4E542F3C1AAD81340060568A /* OnecloudVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OnecloudVideo.xcodeproj; path = ../OnecloudVideo/OnecloudVideo.xcodeproj; sourceTree = "<group>"; };
 		4ED4206A1AAD7B880033B839 /* iosdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED4206E1AAD7B880033B839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED4206F1AAD7B880033B839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9F8CE01AAD8290000E15A6 /* OnecloudVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E542F3D1AAD81340060568A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E542F421AAD81340060568A /* OnecloudVideo.framework */,
+				4E542F441AAD81340060568A /* OnecloudVideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4ED420611AAD7B870033B839 = {
 			isa = PBXGroup;
 			children = (
+				4E542F3C1AAD81340060568A /* OnecloudVideo.xcodeproj */,
 				4E542F251AAD7D7C0060568A /* videoplayer.jpg */,
 				4ED4206C1AAD7B880033B839 /* iosdemo */,
 				4ED420821AAD7B890033B839 /* iosdemoTests */,
@@ -125,10 +181,13 @@
 				4ED420661AAD7B880033B839 /* Sources */,
 				4ED420671AAD7B880033B839 /* Frameworks */,
 				4ED420681AAD7B880033B839 /* Resources */,
+				4E9F8CE41AAD8290000E15A6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4E9F8CDF1AAD8285000E15A6 /* PBXTargetDependency */,
+				4E9F8CE31AAD8290000E15A6 /* PBXTargetDependency */,
 			);
 			name = iosdemo;
 			productName = iosdemo;
@@ -182,6 +241,12 @@
 			mainGroup = 4ED420611AAD7B870033B839;
 			productRefGroup = 4ED4206B1AAD7B880033B839 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4E542F3D1AAD81340060568A /* Products */;
+					ProjectRef = 4E542F3C1AAD81340060568A /* OnecloudVideo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4ED420691AAD7B880033B839 /* iosdemo */,
@@ -189,6 +254,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4E542F421AAD81340060568A /* OnecloudVideo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OnecloudVideo.framework;
+			remoteRef = 4E542F411AAD81340060568A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E542F441AAD81340060568A /* OnecloudVideoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OnecloudVideoTests.xctest;
+			remoteRef = 4E542F431AAD81340060568A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4ED420681AAD7B880033B839 /* Resources */ = {
@@ -232,6 +314,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4E9F8CDF1AAD8285000E15A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OnecloudVideo;
+			targetProxy = 4E9F8CDE1AAD8285000E15A6 /* PBXContainerItemProxy */;
+		};
+		4E9F8CE31AAD8290000E15A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OnecloudVideo;
+			targetProxy = 4E9F8CE21AAD8290000E15A6 /* PBXContainerItemProxy */;
+		};
 		4ED420811AAD7B890033B839 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4ED420691AAD7B880033B839 /* iosdemo */;
@@ -342,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = iosdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = iosdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
