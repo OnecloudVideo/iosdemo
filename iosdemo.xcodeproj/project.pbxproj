@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E542F261AAD7D7C0060568A /* videoplayer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E542F251AAD7D7C0060568A /* videoplayer.jpg */; };
 		4ED420701AAD7B880033B839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4206F1AAD7B880033B839 /* AppDelegate.swift */; };
 		4ED420721AAD7B880033B839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED420711AAD7B880033B839 /* ViewController.swift */; };
 		4ED420751AAD7B880033B839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED420731AAD7B880033B839 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E542F251AAD7D7C0060568A /* videoplayer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = videoplayer.jpg; sourceTree = "<group>"; };
 		4ED4206A1AAD7B880033B839 /* iosdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED4206E1AAD7B880033B839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED4206F1AAD7B880033B839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		4ED420611AAD7B870033B839 = {
 			isa = PBXGroup;
 			children = (
+				4E542F251AAD7D7C0060568A /* videoplayer.jpg */,
 				4ED4206C1AAD7B880033B839 /* iosdemo */,
 				4ED420821AAD7B890033B839 /* iosdemoTests */,
 				4ED4206B1AAD7B880033B839 /* Products */,
@@ -194,6 +197,7 @@
 			files = (
 				4ED420751AAD7B880033B839 /* Main.storyboard in Resources */,
 				4ED4207A1AAD7B880033B839 /* LaunchScreen.xib in Resources */,
+				4E542F261AAD7D7C0060568A /* videoplayer.jpg in Resources */,
 				4ED420771AAD7B880033B839 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				4ED4208B1AAD7B890033B839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ED4208C1AAD7B890033B839 /* Build configuration list for PBXNativeTarget "iosdemoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				4ED4208E1AAD7B890033B839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
